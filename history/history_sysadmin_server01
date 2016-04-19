@@ -64,3 +64,31 @@
    64  sudo -s
    65  sudo history > history_sysadmin_$HOSTNAME
    66  history > history_sysadmin_$HOSTNAME
+   67  ls
+   68  cat history_sysadmin_server01 
+   69  git status
+   70  git add history_root_server01 
+   71  git add history_sysadmin_server01 
+   72  cd ..
+   73  git status 
+   74  git add LAMPP/
+   75  git status 
+   76  git commit -m "Configuracion Virtual Host"
+   77  git push -u apache master 
+   78  cd LAMPP/apache2/
+   79  ls
+   80  cd sites-available/
+   81  ls
+   82  rm default-ssl.conf 
+   83  ls
+   84  git status
+   85  git push -u apache master 
+   86  git commit -m "Quitar archivo"
+   87  git push -u apache master 
+   88  cd /var/www/sitiosdrupal/sites/rudier.space/
+   89  ls
+   90  cat settings.php 
+   91  vim settings.php 
+   92  cp settings.php /home/sysadmin/LX1_rudier/LAMPP/sites/rudier.space/
+   93  sudo cp settings.php /home/sysadmin/LX1_rudier/LAMPP/sites/rudier.space/
+   94  history > /home/sysadmin/LX1_rudier/history/history_sysadmin_$HOSTNAME
