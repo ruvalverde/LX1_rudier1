@@ -1,0 +1,132 @@
+    1  ifconfig
+    2  ping 172.16.1.1
+    3  service ssh status
+    4  sudo apt-get update
+    5  nmap localhost
+    6  sudo nmap localhost
+    7  sudo apt-get nmap
+    8  sudo apt-get install nmap
+    9  sudo nmap localhost
+   10  sudo apt-get install openssh-server
+   11  sudo nmap localhost
+   12  service mysql start 
+   13  service mysql status
+   14  mysql -u root -p
+   15  exit
+   16  cd /var/www/
+   17  ls
+   18  wget https://ftp.drupal.org/files/projects/drupal-7.43.tar.gz
+   19  apt-get install unzip
+   20  tar -xzf drupal-7.43.tar.gz
+   21  ls -la
+   22  mv drupal-7.43 sitiosdrupal
+   23  ls
+   24  cd sitiosdrupal/
+   25  cd sites/
+   26  ls
+   27  cd default/
+   28  ls
+   29  cd ..
+   30* 
+   31  cp default/ rudier.space
+   32  mkdir rudier.space
+   33  cd rudier.space/
+   34  cp ../default/default.settings.php .
+   35  mv default.settings.php  settings.php 
+   36  ls
+   37  apt-get install php5-gd
+   38  service apache2 reload
+   39  cd /etc/apache2/
+   40  cd sites-available/
+   41  ls
+   42  cat 000-default.conf 
+   43  vim 000-default.conf 
+   44  apt-get install vim
+   45  vim 000-default.conf 
+   46  grep -v "#" 000-default.conf > rudier.space.conf
+   47  vim rudier.space.conf 
+   48  chown -R www-data.www-data /var/www/sitiosdrupal/ 
+   49* chmod -R 755 /var/www/sitiosdrupal/apt-get install php5-gd
+   50  vim rudier.space.conf 
+   51  a2ensite rudier.space.conf 
+   52  service apache2 reload 
+   53  vim /etc/hosts
+   54  vim rudier.space.conf 
+   55  a2ensite rudier.space.conf 
+   56  vim rudier.space.conf 
+   57  ls
+   58  vim rudier.space.conf 
+   59  cd ..
+   60  cd sites-enabled/
+   61  ls
+   62  cd ..
+   63  cd /var/www/sitiosdrupal/sites/rudier.space/
+   64  cd /etc/apache2/sites-available/
+   65  vim rudier.space.conf 
+   66  cd /var/www/sitiosdrupal/
+   67  ls
+   68  vim /etc/apache2/sites-available/rudier.space.conf 
+   69  service apache2 reload 
+   70  vim sites/rudier.space/settings.php 
+   71  cd ..
+   72  ls -la
+   73  vim /etc/apache2/sites-available/rudier.space.conf 
+   74  vim /etc/apache2/sites-available/000-default.conf 
+   75  vim /etc/apache2/sites-available/rudier.space.conf 
+   76  vim /etc/hosts
+   77  service apache2 restart
+   78  vim /etc/hosts
+   79  service apache2 restart
+   80  a2dissite rudier.space
+   81  service apache2 restart
+   82  cd /etc/apache2/sites-enabled/
+   83  ls
+   84  a2ensite rudier.space.conf
+   85  service apache2 reload
+   86  ls
+   87  cat rudier.space.conf 
+   88  vim /etc/apache2/sites-available/rudier.space.conf 
+   89  service apache2 reload
+   90  cd /var/www/sitiosdrupal/
+   91  ls
+   92  mv index.php index.html
+   93  ls
+   94  service apache2 reload
+   95  mv index.html index.php
+   96  cd sites/
+   97  ls
+   98  vim README.txt 
+   99  cd default/
+  100  ls
+  101  ls -la
+  102  cd ..
+  103  cd all
+  104  ls
+  105  cd ..
+  106  cd rudier.space/
+  107  ls
+  108  cd ..
+  109  cd default/
+  110  vim default.settings.php 
+  111  apt-get install php5-gd
+  112  vim /etc/apache2/sites-available/rudier.space.conf 
+  113  a2ensite rudier.space.conf 
+  114  service apache2 restart
+  115  vim /etc/apache2/sites-available/rudier.space.conf 
+  116  vim /etc/hosts
+  117  cp /etc/apache2/sites-available/* /home/sysadmin/LX1_rudier/LAMPP/apache2/sites-available/
+  118  history 
+  119  history > /home/sysadmin/LX1_rudier/history/history_$USER_$HOSTNAME
+  120  history 
+  121  echo $USER
+  122  history > /home/sysadmin/LX1_rudier/history/history_$USER_$HOSTNAME
+  123  ls /home/sysadmin/LX1_rudier/history/history_$USER_$HOSTNAME
+  124  history > /home/sysadmin/LX1_rudier/history/history_root_$HOSTNAME
+  125  ls /home/sysadmin/LX1_rudier/history/history_$USER_$HOSTNAME
+  126  ls /home/sysadmin/LX1_rudier/history/
+  127  ls /home/sysadmin/LX1_rudier/LAMPP/sites/
+  128  ls /home/sysadmin/LX1_rudier/LAMPP/sites/rudier.space/
+  129  ls
+  130  ls /home/sysadmin/LX1_rudier/LAMPP/sites/rudier.space/
+  131  cp /var/www/sitiosdrupal/sites/rudier.space/settings.php /home/sysadmin/LX1_rudier/LAMPP/sites/rudier.space/
+  132  history > /home/sysadmin/LX1_rudier/history/history_root_$HOSTNAME
